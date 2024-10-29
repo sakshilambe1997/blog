@@ -1,10 +1,11 @@
 import React from 'react'
 import blogs from "./../../data.js"
 import "./Home.css"
+import BlogCard from '../../components/BlogCard/BlogCard.js'
 function Home() {
   return (
     <div>
-      <h1>Receipe Blogs</h1>
+      <h1 className='heading'>Receipe Blogs</h1>
       <div className='blog-card-container'>
        {
         blogs.map((blogObject,i)=>{
