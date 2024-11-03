@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <h1 className='heading'>Receipe Blogs</h1>
-      <div className='blog-card-container'>
+      <div className='blog-cards-contai'>
        {
         blogs.map((blogObject,i)=>{
           const {
